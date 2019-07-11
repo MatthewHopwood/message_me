@@ -1,1 +1,19 @@
 @import "semantic-ui";
+
+@media only screen and (min-width: 1200px) {
+  .ui.container {
+    width: calc( 1800px + 2rem ) !important;
+  }
+
+  .ui.grid.container {
+    width: calc( 1800px + 2rem ) !important;
+  }
+}
+
+.chatbox {
+  height: 750px;
+}
+
+.login_button {
+  width: 10%;
+}
