@@ -10,10 +10,21 @@
   }
 }
 
+#messages {
+  height: 15em;
+  overflow: auto;
+}
+
 .chatbox {
   height: 750px;
 }
 
 .login_button {
   width: 10%;
+}
+
+.input {
+  button {
+    display: none;
+  }
 }
