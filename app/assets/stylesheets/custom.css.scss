@@ -11,12 +11,16 @@
 }
 
 #messages {
-  height: 15em;
+  height: 55vh;
   overflow: auto;
 }
 
 .chatbox {
-  height: 750px;
+  height: 55vh;
+}
+
+.ui.vertical.menu {
+  width: inherit;
 }
 
 .login_button {
